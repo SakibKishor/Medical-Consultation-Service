@@ -1,0 +1,21 @@
+.left-menu{
+	height:100%;
+	width:200px;
+	top:80;
+	left:0;
+	position:fixed;
+	background-color:#DCDCDC;
+    padding-top:27px;
+}
+
+.barli li{
+	color: black;
+	font-size:20px;
+	padding : 15px;
+	border-bottom:1px solid gray;
+	text-align:center;
+	
+	
+	
+}
+

@@ -1,0 +1,171 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:montserrat;
+}
+
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+
+label.logo{
+	color:white;
+	font-size: 20px;
+	line-height:80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size:17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform:uppercase;
+}
+
+a.active, a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+.logindiv{
+	border: 1px solid black;
+	margin: auto;
+	width:35%;
+	border-radius:10px;
+	margin-top:15%;
+	padding-bottom:25px;
+}
+
+.homediv{
+	border: 1px white;
+	margin: auto;
+	width:100%;
+	border-radius:10px;
+	margin-top:15%;
+	padding-bottom:25px;
+	
+}
+
+.myfont{
+	font-size:25px;
+}
+
+.btn{
+	background-color:#0082e6;
+	color: white;
+	border: none;
+	width: 100%;
+	border-radius:15px;
+	padding:5px;
+	
+}
+
+.btn:hover{
+	background-color:green;
+}
+
+.btn:active{
+	background-color:black;
+}
+
+.err_msg{
+	color:red;
+	font-size:20px;
+	font-family:cambria;
+}
+
+.container{
+	text-align:center;
+	margin-top:360px;
+}
+
+.btnstatus{
+	border:1px solid black;
+	background :none;
+	padding: 10px 20px;
+	font-size:20px ;
+	cursor: pointer;
+	margin: 10px;
+	background-color: #0082e6;
+	position: relative;
+	overflow:hidden;
+	
+}
+.btnstatus:hover{
+	color: #fff
+	
+}
+.btnstatus::before{
+	content: "";
+	position: absolute;
+	left:0;
+	width:100%;
+	height:0%;
+	background:#0082e6;
+	z-index:-1;
+	transition:0.8s;
+}
+	
+.resizedTextbox {width: 300px; height: 30px}
+	
+.forma{
+	border: 1px solid black;
+	margin: auto;
+	width:35%;
+	border-radius:10px;
+	margin-top:15%;
+	padding-bottom:25px;
+	
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
